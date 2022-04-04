@@ -1,0 +1,5 @@
+jmeter - performance plugin - in jenkins
+jmeter/bin - user.properties
+jmeter.save.saveservice.output_format=xml 
+create test script and create job in jenkins
+jmeter -jjmeter.save.saveservice.output_format=xml -n -t <.jmx file path> -l <.jtl report file path>
